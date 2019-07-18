@@ -39,4 +39,5 @@ fields:
   label: Pruduct URL
   description: Product URL
 pages:
+- content/products/parmesan.md
 - content/products/gorgonzola.md
