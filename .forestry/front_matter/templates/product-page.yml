@@ -1,4 +1,14 @@
 ---
 label: Product Page
 hide_body: false
-fields: []
+fields:
+- name: product_info
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Product Info
+  description: Product Information
