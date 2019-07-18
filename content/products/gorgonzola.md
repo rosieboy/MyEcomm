@@ -1,6 +1,5 @@
 +++
 description = "Say cheese"
-draft = true
 id = 42
 image = "/uploads/images.jpeg"
 name = "Gorgonzola"
