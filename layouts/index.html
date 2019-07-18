@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <main class="products">
-  {{ $products := getJSON "ENDPOINT_URL" }}
-{{ range where .Site.RegularPages "Section" "products"}}
+  {{ range where .Site.RegularPages "Section" "products"}}
   {{ partial "product.html" .Params }}
-{{ end }}
-
+  {{ end }}
+</main>
+{{ partial "footer.html" . }}
