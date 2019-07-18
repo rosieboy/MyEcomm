@@ -12,3 +12,5 @@ fields:
       format: markdown
   label: Product Info
   description: Product Information
+pages:
+- content/Gorgonzola.md
