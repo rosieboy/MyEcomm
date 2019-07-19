@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <main class="products">
   {{ range where .Site.RegularPages "Section" "products"}}
-  {{ partial "product.html" .Params }}
+      {{ partial "product.html" .Params }}
   {{ end }}
 </main>
 {{ partial "footer.html" . }}
